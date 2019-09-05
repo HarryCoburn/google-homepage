@@ -16,32 +16,29 @@ a:hover {
     float: right;
 }
 
-nav {  
-    height: 5%;
+nav {      
     padding: 10px;
 }
 
 body {
-    position: absolute;
+    
     height: 100%;
     width: 100%
 }
 
-.form{        
-    height: 90%;        
-}
-
 .form img{    
     display: block;
-    margin-left: 42.3%;
+    margin-left: auto;
     margin-right: auto;   
     padding-top: 140px;
 }
 
-footer {   
-    height: 5%;
+footer {       
     background-color: rgb(245, 245, 245);
     border-top: solid 1px rgb(235, 235, 235);       
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 footer a{    
