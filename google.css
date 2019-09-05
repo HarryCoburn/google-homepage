@@ -21,3 +21,15 @@ footer {
     background-size: 528px 68px; 
     background-position: -132px -38px;
 }
+
+#user {
+    background-image: url('https://lh3.googleusercontent.com/-Y-O8C3oySCc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcIIfZlDPnYvLNIjfcTDMUGtmSZRg.CMID/s32-c/photo.jpg');
+    background-size: 32px 32px;     
+    border-radius: 50%; 
+    margin: -1px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    width: 32px; 
+    position: relative;  
+}
