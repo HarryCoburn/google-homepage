@@ -1,11 +1,18 @@
 a {
     font-family: Arial, sans-serif;
     text-decoration: none;
-    color: black;
+    color: gray;
+    padding: 5px 10px;
+    display:inline-block;    
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+a.right {
+    position: relative;
+    left: 30px;
 }
 
 nav {
@@ -14,13 +21,23 @@ nav {
 }
 
 body {
+    position: absolute;
+    height: 100%;
+    width: 100%
 }
 
 footer {
+    position: relative;
+    bottom: 0;
     height: 50px;
     background-color: rgb(245, 245, 245);
-    border: 4px gray;   
-    font-size: 13px;     
+    border-top: solid 1px rgb(235, 235, 235);   
+    font-size: 13px;      
+}
+
+footer a{    
+    margin-top: 13px;
+    color: gray;
 }
 
 #apps {             
@@ -31,6 +48,7 @@ footer {
     background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
     background-size: 528px 68px; 
     background-position: -132px -38px;
+    padding: 0 0;
 }
 
 #user {
@@ -42,4 +60,5 @@ footer {
     height: 32px;
     width: 32px; 
     position: relative;  
+    padding: 0 0;
 }
