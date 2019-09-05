@@ -17,7 +17,7 @@ a:hover {
 }
 
 nav {  
-    height: 50px;
+    height: 5%;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 
 .form{    
     position: relative;
-    height: 600px;    
+    height: 90%;    
 }
 
 .form img{    
@@ -37,10 +37,8 @@ body {
     padding-top: 140px;
 }
 
-footer {
-    position: relative;
-    bottom: 0;
-    height: 50px;
+footer {   
+    height: 5%;
     background-color: rgb(245, 245, 245);
     border-top: solid 1px rgb(235, 235, 235);       
 }
@@ -72,3 +70,17 @@ footer a{
     position: relative;  
     padding: 0 0;
 }
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    width: 550px;
+    height: 45px;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
