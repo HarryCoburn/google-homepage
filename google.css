@@ -4,6 +4,7 @@ a {
     color: gray;
     padding: 5px 10px;
     display:inline-block;    
+    font-size: 13px;      
 }
 
 a:hover {
@@ -15,8 +16,7 @@ a:hover {
     float: right;
 }
 
-nav {
-    font-size: 13px;
+nav {  
     height: 50px;
 }
 
@@ -26,13 +26,23 @@ body {
     width: 100%
 }
 
+.form{    
+    position: relative;
+    height: 600px;    
+}
+
+.form img{    
+    display: block;
+    margin: auto;
+    padding-top: 140px;
+}
+
 footer {
     position: relative;
     bottom: 0;
     height: 50px;
     background-color: rgb(245, 245, 245);
-    border-top: solid 1px rgb(235, 235, 235);   
-    font-size: 13px;      
+    border-top: solid 1px rgb(235, 235, 235);       
 }
 
 footer a{    
