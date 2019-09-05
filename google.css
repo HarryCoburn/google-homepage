@@ -10,9 +10,9 @@ a:hover {
     text-decoration: underline;
 }
 
-a.right {
+.right {    
     position: relative;
-    left: 30px;
+    float: right;
 }
 
 nav {
