@@ -1,15 +1,26 @@
+a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 nav {
-    font-size: 13px;        
+    font-size: 13px;
+    height: 50px;
 }
 
 body {
-
 }
 
 footer {
     height: 50px;
     background-color: rgb(245, 245, 245);
-    border: 4px gray;    
+    border: 4px gray;   
+    font-size: 13px;     
 }
 
 #apps {             
@@ -25,8 +36,7 @@ footer {
 #user {
     background-image: url('https://lh3.googleusercontent.com/-Y-O8C3oySCc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcIIfZlDPnYvLNIjfcTDMUGtmSZRg.CMID/s32-c/photo.jpg');
     background-size: 32px 32px;     
-    border-radius: 50%; 
-    margin: -1px;
+    border-radius: 50%;     
     display: inline-block;
     vertical-align: middle;
     height: 32px;
