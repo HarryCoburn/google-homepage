@@ -1,0 +1,23 @@
+nav {
+    font-size: 13px;        
+}
+
+body {
+
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    border: 4px gray;    
+}
+
+#apps {             
+    display: inline-block;
+    vertical-align: middle;    
+    width: 30px;
+    height: 30px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px; 
+    background-position: -132px -38px;
+}
